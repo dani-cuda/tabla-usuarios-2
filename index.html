@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+
+        <h1>Tabla Usuarios</h1>
+        <section id="section-formulario">
+            <div class="contenedor-inputs">
+                <label for="name">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="contenedor-inputs">
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+            <div class="contenedor-inputs">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <button id="boton-agregar" style="display: inline-block;">Agregar</button>
+            <button id="boton-guardar" style="display: none;">Guardar</button>
+            <button id="boton-cancelar" style="display: none;">Cancelar</button>
+        </section>
+
+        <section id="section-tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Email</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla">
+
+                </tbody>
+
+            </table>
+        </section>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

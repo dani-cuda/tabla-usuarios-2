@@ -1,0 +1,53 @@
+#section-tabla{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#section-formulario{
+    display: flex;
+    margin: 30px;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-inputs{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+h1{
+    align-content: center;
+}
+
+table{
+    border: 2px solid black;
+    width: 80%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black; 
+}
+
+td{
+    border: 1px solid black;
+    height: 20px;
+    background-color: aliceblue; 
+}
+
+button{
+    margin: 5px;
+}
+
+button:hover{
+    transform: scale(1.08);
+}
